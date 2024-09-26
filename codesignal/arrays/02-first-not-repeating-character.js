@@ -21,7 +21,7 @@
 
 function firstNotRepeatingCharacter(value) {
   if(!value) return '_'
-  let charDict = {};cd 
+  let charDict = {};
   for (const char of value) {
     if(!charDict[char]){
       charDict[char] = 1
